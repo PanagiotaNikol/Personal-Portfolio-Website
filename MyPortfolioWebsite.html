@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="MyPortfolioWebsite.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#welcome-section">Welcome</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="welcome-section" class="hero">
+        <h1>Hello, I'm Panagiota</h1>
+        <p>Passionate about learning and creating new things.</p>
+        <div class="social-links">
+            <a href="https://github.com/PanagiotaNikol" target="_blank" class="social-link github">GitHub</a>
+            <a href="https://www.linkedin.com/in/panagiota-spyridoula-nikolidaki-272b3b315/" target="_blank" class="social-link linkedin">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div id="project-list" class="project-list"></div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul id="skills-list"></ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" name="name" required>
+            <input type="email" placeholder="Your Email" name="email" required>
+            <textarea placeholder="Your Message" name="message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Panagiota Nikolidaki. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/PanagiotaNikol" target="_blank" class="social-link github">GitHub</a>
+            <a href="https://www.linkedin.com/in/panagiota-spyridoula-nikolidaki-272b3b315/" target="_blank" class="social-link linkedin">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
